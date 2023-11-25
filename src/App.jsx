@@ -1,16 +1,23 @@
 import './App.css'
-import LoginForm from './components/LoginForm'
+import { BrowserRouter,Routes,Route} from 'react-router-dom'
 import Header from './layout/Header'
 import LeftSideBar from './layout/LeftSideBar'
+import Footer from './layout/Footer'
 
 function App() {
 
 
   return (
     <>
-    {/* <LoginForm /> */}
+
+
     <Header />
-    <LeftSideBar/>
+  <LeftSideBar/>
+  <BrowserRouter>
+  <Routes>
+    
+  </Routes>
+  </BrowserRouter>
 
 
     </>
