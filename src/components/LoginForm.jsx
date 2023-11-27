@@ -47,7 +47,7 @@ const LoginForm = () => {
               <form className="form-horizontal" action="https://themesbrand.com/skote-springboot/layouts/index.html">
                 <div className="mb-3">
                   <label htmlFor="username" className="form-label">Username</label>
-                  <input type="text" className="form-control" id="username" placeholder="Enter username" />
+                  <input type="text" className="form-control" id="username" placeholder="Enter username" value="admin" readOnly />
                 </div>
                 <div className="mb-3">
                   <label className="form-label">Password</label>
