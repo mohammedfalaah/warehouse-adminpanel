@@ -1,9 +1,13 @@
 import React from 'react'
+  // import 'bootstrap/dist/css/bootstrap.min.css';
+// import {Link} from 'react-bootstrap'
+
+
 
 const LoginForm = () => {
   return (
     <> 
-
+    
 <div className="account-pages my-5 pt-sm-5">
   <div className="container">
     <div className="row justify-content-center">
@@ -15,7 +19,7 @@ const LoginForm = () => {
                 <div className="text-primary p-4">
                   <h5 className="text-primary">Welcome Back !</h5>
                   <p>Sign in to continue to Skote.</p>
-                </div>
+                </div>      
               </div>
               <div className="col-5 align-self-end">
                 <img src="assets/images/profile-img.png" alt className="img-fluid" />
@@ -59,7 +63,7 @@ const LoginForm = () => {
                   </label>
                 </div>
                 <div className="mt-3 d-grid">
-                  <button className="btn btn-primary waves-effect waves-light" type="submit">Log In</button>
+                  <button className="btn btn-primary waves-effect waves-light"  type="submit">Log In</button>
                 </div>
                 <div className="mt-4 text-center">
                   <h5 className="font-size-14 mb-3">Sign in with</h5>
@@ -80,7 +84,7 @@ const LoginForm = () => {
                       </a>
                     </li>
                   </ul>
-                </div>
+                </div> 
                 <div className="mt-4 text-center">
                   <a href="auth-recoverpw.html" className="text-muted"><i className="mdi mdi-lock me-1" /> Forgot your password?</a>
                 </div>
@@ -92,6 +96,7 @@ const LoginForm = () => {
           <div>
             <p>Don't have an account ? <a href="auth-register.html" className="fw-medium text-primary"> Signup now </a> </p>
             <p>©  Skote. Crafted with <i className="mdi mdi-heart text-danger" /> by Themesbrand</p>
+        
           </div>
         </div>
       </div>
